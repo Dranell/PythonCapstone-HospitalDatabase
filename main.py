@@ -6,6 +6,7 @@ import create_data_base as cdb
 
 import create_data_table_queries as cdtq
 
+import populate_data_tables_queries as pdtq
 def createServerConnection(host_name,user_name,user_password,db_name):
     connection = None
     try:
@@ -41,3 +42,9 @@ def execute_query(connection,query):
 
 
 conntection = createServerConnection("localhost","root","student","cape_local_medical_center")
+execute_query(conntection,pdtq.physician_data)
+execute_query(conntection,pdtq.department_data)
+execute_query(conntection,pdtq.patient_data)
+execute_query(conntection,pdtq.nurse_data)
+execute_query(conntection,pdtq.appointment_data)
+execute_query(conntection,pdtq.procedures_data)
