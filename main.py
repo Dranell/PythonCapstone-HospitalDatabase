@@ -11,6 +11,8 @@ import read_data_table_queries as rdtq
 import update_data_tables_queries as udtq
 
 import populate_data_tables_queries as pdtq
+
+import delete_data_table_queries as ddtq
 def createServerConnection(host_name,user_name,user_password,db_name):
     connection = None
     try:
@@ -56,21 +58,14 @@ def read_query(connection,query):
 
 conntection = createServerConnection("localhost","root","student","cape_local_medical_center")
 
-execute_query(conntection,udtq.update_patient)
+execute_query(conntection,ddtq.delete_patient)
 print("Information for Patient Data Table:")
 patientDataTable = read_query(conntection,rdtq.display_patient_information)
 for patientInformation in patientDataTable:
     print(patientInformation)
 print()
 
-execute_query(conntection,udtq.update_procedures)
-print("Information for Procedures Data Table:")
-proceduresDataTable = read_query(conntection, rdtq.display_procedures_information)
-for proceduresInformation in proceduresDataTable:
-    print(proceduresInformation)
-print()
-
-execute_query(conntection,udtq.update_appointment)
+execute_query(conntection,ddtq.delete_appointment)
 appointmentDataTable = print("Information for Appointment Data Table")
 appointmentDataTable = read_query(conntection,rdtq.display_appointment_information)
 for appointmentInformation in appointmentDataTable:
