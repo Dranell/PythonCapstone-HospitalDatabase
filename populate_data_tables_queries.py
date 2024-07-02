@@ -59,7 +59,7 @@ insert into nurse values
 ('EMP0017', 'Nurse Evans', 'RN', False, 285943485);
 """
 
-#fix appointments table
+
 appointment_data = """ 
 insert into appointment values
 ('APP001', 111111111, 'EMP008', 'EMP001', '2024-07-02 09:00', 'Room A'),

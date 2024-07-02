@@ -6,6 +6,10 @@ import create_data_base as cdb
 
 import create_data_table_queries as cdtq
 
+import read_data_table_queries as rdtq
+
+import update_data_tables_queries as udtq
+
 import populate_data_tables_queries as pdtq
 def createServerConnection(host_name,user_name,user_password,db_name):
     connection = None
@@ -40,11 +44,35 @@ def execute_query(connection,query):
     except Error as err:
         print(f"Error: {err}")
 
+def read_query(connection,query):
+    cursor = connection.cursor()
+    result = None
+    try:
+        cursor.execute(query)
+        result = cursor.fetchall()
+        return result
+    except Error as err:
+        print(f"Error: '{err}'")
 
 conntection = createServerConnection("localhost","root","student","cape_local_medical_center")
-execute_query(conntection,pdtq.physician_data)
-execute_query(conntection,pdtq.department_data)
-execute_query(conntection,pdtq.patient_data)
-execute_query(conntection,pdtq.nurse_data)
-execute_query(conntection,pdtq.appointment_data)
-execute_query(conntection,pdtq.procedures_data)
+
+execute_query(conntection,udtq.update_patient)
+print("Information for Patient Data Table:")
+patientDataTable = read_query(conntection,rdtq.display_patient_information)
+for patientInformation in patientDataTable:
+    print(patientInformation)
+print()
+
+execute_query(conntection,udtq.update_procedures)
+print("Information for Procedures Data Table:")
+proceduresDataTable = read_query(conntection, rdtq.display_procedures_information)
+for proceduresInformation in proceduresDataTable:
+    print(proceduresInformation)
+print()
+
+execute_query(conntection,udtq.update_appointment)
+appointmentDataTable = print("Information for Appointment Data Table")
+appointmentDataTable = read_query(conntection,rdtq.display_appointment_information)
+for appointmentInformation in appointmentDataTable:
+    print(appointmentInformation)
+print()
