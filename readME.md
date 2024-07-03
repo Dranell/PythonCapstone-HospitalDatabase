@@ -3,7 +3,22 @@ This project demonstrates the implementation of a relational database using MySQ
 By following these guidelines, the project ensures that all CRUD operations are conducted smoothly, maintaining the integrity and coherence of the database while meeting the clinic's operational needs.
 
 Part A: 
-Database Design and Tables  
+Database Design and Tables 
+
+Install plugins:
+![Screenshot (1)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/196462c7-8923-46c2-8d2c-2a8cc90127fb)
+
+Set up DB Navigator:
+![Screenshot (2)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/c94212de-d1b2-43b1-9140-2ece8b498a35)
+
+Coneneting PyCharm to MySQL:
+![Screenshot (37)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/da388a26-974b-44e6-b9a9-77e4c0124820)
+
+Creating a Database:
+![Screenshot (38)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/38f07f82-de12-43ba-a9f6-c7111c098f72)
+![Screenshot (39)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/7477727c-1fab-4862-8171-f8ac9e41249c)
+
+
 
 Tables Created:
 Physician Table (7 entries), Department Table (5 entries), Patient Table (20 entries), Nurse Table (10 entries), Appointment Table (20 entries), Procedure Table (10 entries).
