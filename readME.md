@@ -22,8 +22,16 @@ Creating a Database:
 
 Tables Created:
 Physician Table (7 entries), Department Table (5 entries), Patient Table (20 entries), Nurse Table (10 entries), Appointment Table (20 entries), Procedure Table (10 entries).
-![Screenshot (38)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/6dcea2d5-a69c-46b2-870c-3e88b980c723)
-![Screenshot (39)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/6644e312-2058-444f-b286-a92de297c6d9)
+
+![Screenshot (42)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/74e3c8ea-6e77-4cde-997f-ae0fc2d000a6)
+![Screenshot (43)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/43aae18e-b8ff-428a-82f3-ca7e4e9b85d1)
+![Screenshot (44)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/2dd6c5a5-1030-4ffa-96aa-2b306f8345fc)
+![Screenshot (45)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/d06f5051-9aa0-4c04-8622-55625cd825e7)
+![Screenshot (46)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/1e849685-c7e3-4bf8-9ff0-4f03a6d4b735)
+
+
+
+
 Part B: CRUD Operations
 
 
