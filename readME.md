@@ -37,22 +37,22 @@ Part B: CRUD Operations
 
 Updates:
 
-Updated the cost of the last procedure to $77,888.
+Updated and displayed the cost of the last procedure to $77,888.
 ![Screenshot (48)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/f0cc17f6-778d-4af2-8f77-8f4f937746c6)
 
 
-Updated the phone number of the second to last patient to (547)-878-9922.
+Updated and displayed the phone number of the second to last patient to (547)-878-9922.
 ![Screenshot (47)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/174c24f6-2090-4e07-bc06-31c4e08e5678)
 
-Updated the last appointment to take place in room 211.
+Updated and displayed the last appointment to take place in room 211.
 ![Screenshot (49)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/d906c281-2bd4-47ff-8aad-3e553807c8c4)
 
 Deletes:
-Removed the last patient from the Patient table.
+Removed and displayed the last patient from the Patient table.
 ![Screenshot (50)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/2f42dcb4-a589-4564-b3aa-2e7643a1fe16)
 
 
-Removed the third appointment from the Appointments table.
+Removed and displayed the third appointment from the Appointments table.
 ![Screenshot (51)](https://github.com/Dranell/PythonCapstone-HospitalDatabase/assets/173842921/b287cc12-d41d-4b55-a1b8-79606ea1326f)
 
 
