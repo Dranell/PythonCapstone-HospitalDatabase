@@ -1,4 +1,4 @@
-This project demonstrates the implementation of a relational database using MySQL and Python to manage a local health clinic's operations. By creating, updating, and deleting records across multiple tables, the system supports efficient data management for physicians, departments, patients, nurses, appointments, and medical procedures.
+This fictional project demonstrates the implementation of a relational database using MySQL and Python to manage a local health clinic's operations. By creating, updating, and deleting records across multiple tables, the system supports efficient data management for physicians, departments, patients, nurses, appointments, and medical procedures.
 
 By following these guidelines, the project ensures that all CRUD operations are conducted smoothly, maintaining the integrity and coherence of the database while meeting the clinic's operational needs.
 
